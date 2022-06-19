@@ -133,23 +133,23 @@ section {
   background-position: center;
   text-transform: uppercase;
 }
-.hero div h1 {
+.hero h1 {
   position: relative;
   left: -30px;
 }
-.hero div h2 {
+.hero h2 {
   color: #faa541;
 }
-.hero div h1, h2 {
+.hero h1, .hero h2 {
   font-size: 63px;
   font-weight: 700;
   line-height: 0.9;
 }
 .hero p {
   letter-spacing: 2px;
-  weight: 700;
+  font-weight: 700;
   font-size: 21px;
-  margin: 0 0 10px 0;
+  margin: 0 0 10px;
 }
 .banner {
   margin: 55px 15px;
@@ -186,12 +186,12 @@ section {
   text-transform: uppercase;
   text-align: center;
 }
-.category-text >div {
+.category-text > div {
   font-size: 16px;
   font-weight: 200;
   color: #faa541;
 }
-.category-text >h3 {
+.category-text h3 {
   font-size: 30px;
   font-weight: 700;
   line-height: 1;
